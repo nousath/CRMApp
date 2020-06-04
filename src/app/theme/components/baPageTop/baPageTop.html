@@ -1,0 +1,35 @@
+<div class="page-top clearfix" baScrollPosition maxHeight="50" (scrollChange)="scrolledChanged($event)" [ngClass]="{scrolled: isScrolled}">
+    <a href (click)="toggleMenu()" class="collapse-menu-link ion-navicon"></a>
+    <!--  <a routerLink="/pages/dashboard" class="al-logo clearfix">Reddy<span>Ice</span></a> -->
+    <a routerLink="/pages" class="al-logo clearfix">
+     
+                  
+    <img src="assets/crm/stylox-logo.png" class="logo-img">
+    </a>
+
+    <!-- <a class="al-logo clearfix app-head"><b>My Icebox</b></a> -->
+
+
+    <div class="user-icon-container">
+        <div class="user-name">
+            <span class="userTextColor">{{userDetails ? userDetails.FirstName : ''}}&nbsp;{{userDetails ? userDetails.LastName : ''}}</span>
+        </div>
+        <div class="user-icon">
+            <div class="clearfix">
+                <div class="al-user-profile dropdown open" uib-dropdown="">
+                    <a class="profile-toggle-link dropdown-toggle" id="user-profile-dd" data-toggle="dropdown" aria-expanded="false">
+
+                        <!-- <img src="{{ ( 'Nasta' | baProfilePicture ) }}"> -->
+                        <i class="ion-arrow-down-b down-icon"></i>
+                        <img src="assets/img/app/profile/male-user-close-up_318-39701.jpg">
+                    </a>
+                    <ul class="top-dropdown-menu profile-dropdown dropdown-menu" uib-dropdown-menu="" style='min-width:185px;' >
+                        <li><i class="dropdown-arr"></i></li>
+                        <li><a class="signout" [routerLink]="['../login']" [queryParams]="{signout:true}" (click)="signOut()"><i class="fa fa-power-off"></i>Sign out</a></li>
+                         <!-- <li *ngIf="!userDetails?.IsRIInternal"><a class="signout" [routerLink]="['../resetpassword']"><i class="ion-edit"></i>Reset password </a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

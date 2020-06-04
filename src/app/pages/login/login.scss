@@ -1,0 +1,54 @@
+@import '../../theme/sass/auth';
+.auth-main .forgot-pass, .auth-main .forgot-pass:hover {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.change-pass {
+  color: #fff !important;
+  font-weight: 500;
+  text-decoration: underline;
+  float: right;
+}
+.cursor{
+  cursor: pointer;
+}
+.label-font-size{
+  font-size: 14px;
+}
+.checkboxstyle{
+	float: left;
+    margin-top: 4px;
+    margin-left: 28px;
+}
+.col-sm-8{
+	padding-left:0;
+	padding-right:0;
+	max-width:60%;
+}
+.form-group label{
+  font-size: 13px;
+}
+.form-horizontal label {
+  line-height: 20px;
+}
+.row{
+	margin-right:0;
+	margin-left:0;
+}
+.col-sm-4{
+	padding-left:0;
+	padding-right:0;
+	max-width: 39.333333%;
+	flex: none;
+}
+.offset-sm-4 {
+    margin-left: 39.333333%;
+}
+.text-login {
+  font-size: 25px;
+  color: white;
+}
+.login-loader {
+  margin-left: 25px;
+}

@@ -1,0 +1,41 @@
+@import "./src/app/theme/sass/conf/conf.scss";
+
+
+th {
+	font-weight: 500;
+	background-color: #5bc0de;
+}
+
+.table > tbody > tr > td {
+  padding: 0px 12px;
+  text-align: left !important;
+}
+
+.modal-lg {
+	max-width: 500px !important;
+}
+.modal-buttons .btn {
+  margin-right: 20px;
+}
+
+.modal-content {
+  color: $dropdown-text;
+    max-height: 400px;
+    overflow-y: auto;
+	border-radius: unset;
+
+}
+.add-margin-right{
+  margin-right: 20px;
+}
+.popup-outer{
+    border: none;
+    padding: 10px 15px 0 15px;
+}
+.outer-content{
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+.close{
+    margin-top: -26px;
+}

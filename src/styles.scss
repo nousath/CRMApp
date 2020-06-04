@@ -1,0 +1,386 @@
+/**
+* Start Override default bootstarp CSS
+*/
+.showErr .modal-body{
+    white-space: pre-line !important;
+}
+#production-panel fieldset{
+    margin-top: 7px;
+    border: 1px solid #D3D3D3;
+    width: 79px;
+    height: 31px;
+    border-radius: 4px;
+}
+#production-panel .btn-link{
+    display:none !important;
+}
+ngb-timepicker .btn-link{
+    display:none;
+}
+#production-panel .table > tbody > tr > td{
+    line-height: unset;
+}
+#production-panel .ngb-tp-spacer {
+        width: 10px;
+        text-align: center;
+}
+.ngb-tp-meridian .btn-outline-primary:hover{
+    color:#000 !important;
+    border-color:unset;
+}
+.ngb-tp-meridian .btn-outline-primary {
+    color:#000 !important;
+    border-color:#D3D3D3;
+}
+.time_outer .btn-outline-primary:active, .time_outer .btn-outline-primary.active, .time_outer .show > .btn-outline-primary.dropdown-toggle {
+    color:#000 !important;
+    background-color: #fff !important;
+    border-color: #000 !important;
+}
+.time_outer .btn-outline-primary:hover {
+    color:#000 !important;
+    background-color: #fff !important;
+    border-color: #000 !important;
+}
+ ngb-timepicker fieldset{
+     margin: unset;
+     border: unset;
+     padding: unset;
+ }
+ ngb-timepicker .btn{
+    font-size: 11px;
+    padding: 3px !important;
+ }
+ .ngb-tp-hour .btn span{
+    display: none;
+}
+
+.ngb-tp-hour .form-control{
+    padding :0;
+    border: unset !important;
+}
+.time_outer .ngb-tp-meridian{
+    margin-right:2px;
+}
+.time_outer .btn-outline-primary:focus, .time_outer .btn-outline-primary.focus{
+    box-shadow:unset;
+}  
+.time_outer .btn:focus, .time_outer .btn.focus{
+    box-shadow:unset;
+}
+.ngb-tp-minute .btn span {
+    display: none;
+}
+.ngb-tp-minute .form-control {
+    padding :6px 0;
+    width: 25px;
+    border: unset !important;
+}
+.col-sm-2{
+	max-width: 17%;
+    padding-right: 5px;
+	padding-left: 8px;
+}
+.col-sm-1{
+	max-width: 13.5%;
+    padding-right: 5px;
+	flex:none;
+	padding-left: 8px;
+}
+.refreshbtn strong {
+    font-weight: 500;
+	font-size:11px;
+}
+fieldset {
+    border: 1px solid #5bc0de;
+    padding: 0.35em 0.625em 0.75em;
+    margin: 5px 0;
+}
+.refershContainer{
+    text-align: center;
+    top: calc(50% - 25px);
+    margin: auto;
+}
+
+.refershMes {
+    color: green;
+    font-size: 13px;
+    font-weight: 500;
+}
+legend {
+    width: auto;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 5px;
+    margin-bottom: 0;
+}
+
+.form-control {
+    padding: 6.5px 8px;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 32px;
+}
+
+
+/**
+* End Override default bootstarp CSS
+*/
+
+
+/* You can add global styles to this file, and also import other style files */
+
+.padding-eater {
+    padding: 0;
+}
+
+.card-title {
+    color: #000 !important;
+}
+
+.app-head {
+    margin-left: 60px !important;
+}
+
+.ngb-dp-day.disabled {
+    cursor: not-allowed !important;
+}
+
+a.collapse-menu-link {
+    margin: 11px 20px 29px -27px !important;
+}
+
+.al-logo {
+    img {
+        width: 158px;
+        height: 62px;
+    }
+}
+
+.custom-tooltip-ion:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    width: auto;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    padding: 2px 5px;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.dayend-tabset {
+    .nav-tabs {
+        border-top: 1px solid #ef8989 !important;
+        border-left: 1px solid #ef8989;
+        border-right: 1px solid #ef8989;
+    }
+    .tab-content {
+        border: 1px solid #ef8989;
+        border-top: 0;
+    }
+    .nav-item a:hover {
+        color: #000;
+        background-color: #f59d9d !important;
+    }
+}
+.production-tabset {
+    .nav-tabs {
+        border-top: 1px solid #ef8989 !important;
+        border-left: 1px solid #ef8989;
+        border-right: 1px solid #ef8989;
+    }
+    .tab-content {
+        border: 1px solid #ef8989;
+        border-top: 0;
+    }
+    .nav-item a:hover {
+        color: #000;
+        background-color: #f59d9d !important;
+    }
+}
+.production-tabset .nav-link {
+    display: block;
+    padding: 0.7em 1em;
+}
+
+.dayend-card {
+    .card-body {
+        min-height: 400px;
+    }
+}
+
+.tableHeader {
+    background: #5bc0de;
+    color: black;
+}
+
+//common classes
+.remove-margin {
+    margin: 0px;
+}
+
+.remove-margin-top {
+    margin-top: 0px;
+}
+
+.remove-padding {
+    padding: 0px;
+}
+
+.remove-padding-top {
+    padding-top: 0px;
+}
+
+#newTicket .card-header.clearfix {
+    padding-left: 33px !important;
+}
+
+.small-select {
+    padding: 4px 8px;
+    margin-top: 3px;
+    height: 28px !important;
+}
+
+.textRightPadding {
+    text-align: right;
+    padding-right: 12px !important;
+}
+
+
+/*
+* Override multiple-select css
+*/
+
+.ms-parent {
+    width: 100% !important;
+}
+
+.ms-choice {
+    height: 32px;
+    span {
+        top: 3px;
+    }
+    div {
+        top: 3px;
+    }
+}
+
+.ms-drop {
+    min-width: 200px !important;
+    li {
+         :hover {
+            background-color: #5bc0de;
+        }
+        label {
+            margin: 0;
+            padding: 5px 2px;
+            input[type="radio"] {
+                display: none;
+            }
+            input[type="checkbox"] {
+                margin-right: 2px;
+            }
+        }
+    }
+}
+
+simple-notification .icon svg {
+    height: 50% !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .al-content {
+        padding: 4px 16px !important;
+      }          
+}
+@media only screen and (max-width: 500px) {
+    .al-content {
+        padding: 4px 16px !important;
+      }       
+}
+
+.inner-addon {
+    ::-webkit-input-placeholder { /* Chrome */
+       color: black;
+       opacity: 1;
+     }
+      :-ms-input-placeholder { /* IE 10+ */
+       color: black;
+       opacity: 1;
+     }
+     ::-moz-placeholder { /* Firefox 19+ */
+       color: black;
+       opacity: 1;
+     }
+      :-moz-placeholder { /* Firefox 4 - 18 */
+       color: black;
+       opacity: 1;
+     }  
+   
+     .dropdown-item.active, .dropdown-item:active {
+       background-color: #5bc0de !important;
+     }
+     .dropdown-item{
+	 width:auto;
+	 min-width:350px;
+	 }
+     .dropdown-menu {
+       max-height: 200px;
+       max-width: 350px;
+       overflow: auto;
+     }
+     
+     .dropdown-item {
+       line-height: 1.25;
+       padding:3px 0px 3px 10px;
+     }
+ } 
+ .savePopup .modal-sm{
+		max-width:402px;
+ }
+ .savePopup .modal-footer {
+    margin-right: 87px;
+}
+.simple-notification .sn-content {
+    margin: 0;
+    font-size: 16px;
+    padding: 0 !important;
+}
+.simple-notification{
+	padding: 8px;
+}
+
+.simple-notification .icon {
+    position: absolute;
+    box-sizing: border-box;
+    top: 1px;
+    right: 0;
+    width: 70px;
+    height: 70px;
+}
+@media only screen and (min-width: 1024px) {
+.table{ width:100% !important; max-width:100% !important;}
+.col-2-width {
+	width: 12% !important;
+}
+
+.col-1-width {
+	width: 7.5% !important;
+}
+.col-3-width {
+	width: 25% !important;
+}
+}
+
+.simple-notification-wrapper {
+    position: fixed;
+    width: auto !important;
+    z-index: 1000;
+}
